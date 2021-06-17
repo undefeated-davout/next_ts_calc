@@ -1,5 +1,11 @@
 # README
 
+## 環境構築
+
+```bash
+yarn install
+```
+
 ## 開発環境起動
 
 ```bash
