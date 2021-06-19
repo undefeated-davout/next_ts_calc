@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function usePersist(ky: string, initVal: any) {
+function usePersist(ky: string, initVal: Object[]) {
   const key = 'hooks:' + ky;
   const value = () => {
     try {
